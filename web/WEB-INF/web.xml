@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
 
-    <servlet>
-        <servlet-name>Replacer</servlet-name>
-        <servlet-class>com.test.Replacer</servlet-class>
+<!--    <servlet>
+        <servlet-name>FilterServlet</servlet-name>
+        <servlet-class>com.test.FilterServletrvlet</servlet-class>
         <init-param>
             <param-name>filter</param-name>
             <param-value>a,on,i</param-value>
@@ -14,8 +14,8 @@
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>Replacer</servlet-name>
+        <servlet-name>FilterServlet</servlet-name>
         <url-pattern>/replacer</url-pattern>
-    </servlet-mapping>
+    </servlet-mapping>-->
 
 </web-app>
